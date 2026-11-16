@@ -1,0 +1,30 @@
+# Your footage, renders and database stay on your computer and never go to git
+data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Secrets (YouTube OAuth tokens, later phases)
+client_secret*.json
+token*.json
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
